@@ -1,0 +1,31 @@
+{
+  "name": "cerebro-karabiner",
+  "version": "0.1.0",
+  "description": "Cerebro plugin to switch Karabiner profile",
+  "license": "MIT",
+  "repository": "clvrobj/cerebro-karabiner",
+  "author": {
+    "name": "Chi Zhang",
+    "email": "clvrobj@gmail.com",
+    "url": "zhangchi.de"
+  },
+  "dependencies": {
+    "cerebro-tools": "^0.1.8",
+    "cerebro-ui": "^0.0.15"
+  },
+  "devDependencies": {
+    "cerebro-scripts": "0.0.10",
+    "webpack": "^2.6.1"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "karabiner",
+    "cerebro",
+    "cerebro-plugin"
+  ],
+  "scripts": {
+    "start": "cerebro-scripts start",
+    "build": "cerebro-scripts build",
+    "test": "cerebro-scripts test"
+  }
+}
